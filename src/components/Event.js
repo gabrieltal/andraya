@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class HistoricalEvent extends Component {
+export default class Event extends Component {
   render() {
     return (
       <div>

@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import HistoryCollection from './history_collection';
+import Timeline from './components/Timeline';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <h1>Andraya and Gabriel</h1>
       </header>
       <main>
-        <HistoryCollection></HistoryCollection>
+        <Timeline></Timeline>
       </main>
     </div>
   );
