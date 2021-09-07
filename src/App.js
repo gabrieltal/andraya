@@ -1,16 +1,12 @@
 import logo from './assets/images/logo.svg';
 import './App.css';
 import Timeline from './components/Timeline';
+import Main from './components/Main';
 
 function App() {
   return (
     <div className="app">
-      <header className="header">
-        <h1>Andraya and Gabriel</h1>
-      </header>
-      <main>
-        <Timeline></Timeline>
-      </main>
+      <Main />
     </div>
   );
 }
