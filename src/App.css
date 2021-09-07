@@ -1,0 +1,16 @@
+/* Site wide */
+header, main {
+  margin: 0 10rem;
+}
+
+header { padding-top: 6rem; }
+
+@media only screen and (max-width: 600px) {
+  header, main {
+    margin: 0 2rem;
+  }
+}
+
+/* Header */
+
+h1 { text-align: center; }
