@@ -1,6 +1,4 @@
-import logo from './assets/images/logo.svg';
 import './App.css';
-import Timeline from './components/Timeline';
 import Main from './components/Main';
 
 function App() {
