@@ -3,7 +3,7 @@ header, main {
   margin: 0 10rem;
 }
 
-header { padding-top: 6rem; }
+header { padding-top: .75rem; }
 
 @media only screen and (max-width: 600px) {
   header, main {
@@ -14,3 +14,5 @@ header { padding-top: 6rem; }
 /* Header */
 
 h1 { text-align: center; }
+
+.my-3 { margin-top: 12px; margin-bottom: 12px; }
