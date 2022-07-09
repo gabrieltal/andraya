@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './assets/stylesheets/index.css';
-import './App.css';
+import './assets/stylesheets/reset.css';
+import './assets/stylesheets/app.css';
+import './assets/stylesheets/stars.css';
 import Main from './components/Main';
 import Timeline from './components/Timeline';
 
