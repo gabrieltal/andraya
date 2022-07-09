@@ -1,6 +1,5 @@
 import Main from './components/Main';
 import Timeline from './components/Timeline';
-
 import {
   BrowserRouter,
   Routes,
