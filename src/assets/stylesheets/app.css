@@ -20,7 +20,7 @@ main {
 
 code { font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; }
 
-/* Header */
+/* Header & Text */
 header { padding-top: .75rem; }
 h1 {
   font-family: 'Dancing Script', cursive;
@@ -30,6 +30,8 @@ h2 {
   font-family: 'Sacramento', cursive;
   font-size: 3.5rem;
 }
+p { font-size: 1.5rem; line-height: 1.8rem; }
+a { font-size: 1.15rem; line-height: 1.2rem; }
 
 /* Height */
 .vh-100 { height: 100vh; }
@@ -44,6 +46,8 @@ h2 {
 .mb-5 { margin-bottom: 32px; }
 .mt-5 { margin-top: 32px; }
 .my-5 { margin-bottom: 32px; margin-top: 32px; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.blocktext { width: 65%; }
 
 /* Flex */
 .d-flex { display: flex; }
@@ -56,8 +60,43 @@ h2 {
 .nav-link { color: white; text-decoration: none; padding: 1rem; }
 .nav-link.active { color: white; }
 .nav-link:hover { text-decoration: underline; }
+.page-link { color: lightblue; text-decoration: none; }
 
 /* App Specific */
+/* If Andraya wants to hard set image sizes use this! https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/ */
+/* .gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+}
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+/* .gallery-item {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+} */
+
+/* Followed: https://www.quackit.com/css/grid/examples/css_grid_photo_gallery_examples.cfm */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 15px;
+  width: 65%;
+  align-items: stretch;
+
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {

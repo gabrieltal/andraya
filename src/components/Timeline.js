@@ -1,6 +1,6 @@
+import React, { Component } from 'react';
 import HISTORY from '../library/history';
 import Event from './Event';
-import React, { Component } from 'react';
 import Nav from './Nav';
 
 export default class Timeline extends Component {
