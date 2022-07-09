@@ -49,6 +49,13 @@ h2 {
 .d-flex { display: flex; }
 .align-items-center { align-items: center; }
 .text-center { text-align: center; }
+.justify-content-center { justify-content: center; }
+.flex-column { flex-direction: column; }
+
+/* Links */
+.nav-link { color: white; text-decoration: none; padding: 1rem; }
+.nav-link.active { color: white; }
+.nav-link:hover { text-decoration: underline; }
 
 /* App Specific */
 

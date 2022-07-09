@@ -1,6 +1,7 @@
 import HISTORY from '../library/history';
 import Event from './Event';
 import React, { Component } from 'react';
+import Nav from './Nav';
 
 export default class Timeline extends Component {
   render() {
@@ -10,17 +11,15 @@ export default class Timeline extends Component {
 
     return (
       <div className="star-background">
-        <div id='stars'></div>
-        <div id='stars2'></div>
-        <div id='stars3'></div>
-        <header>
-          <h1>Andraya and Gabriel</h1>
-        </header>
+        <Nav />
         <main>
           <div className="history">
             {events}
           </div>
         </main>
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
       </div>
     );
   }
