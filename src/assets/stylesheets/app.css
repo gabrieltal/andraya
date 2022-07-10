@@ -64,6 +64,12 @@ a { font-size: 1.15rem; line-height: 1.2rem; }
 
 /* App Specific */
 
+.splash-photo {
+  max-width:100%;
+  width:100%;
+  max-height: 480px;
+}
+
 .container {
   display: grid;
   gap: 1rem;
