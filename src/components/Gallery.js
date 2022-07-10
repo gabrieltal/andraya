@@ -12,8 +12,10 @@ export default class Gallery extends Component {
     return (
       <div>
         <Nav />
-        <main className="gallery mx-auto">
-          {photos}
+        <main className="container">
+          <div className="gallery mx-auto">
+            {photos}
+          </div>
         </main>
       </div>
     );
