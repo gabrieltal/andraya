@@ -121,8 +121,10 @@ a { font-size: 1.15rem; line-height: 1.2rem; }
 }
 
 .modal-image {
-  height: 100vh;
   width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-height: 100vh;
 }
 
 .visually-hidden, .is-closed {
