@@ -38,9 +38,9 @@ export default class Photo extends Component {
           <button className="close" onClick={this.toggleModal}>&times;<span className="visually-hidden">Close</span></button>
 
           <div className="modal-content text-center">
-            <div className="modal-body">
+            <div className="modal-body mt-5">
               <a href={this.state.imageSrc} rel="noreferrer" target="_blank">
-                <img className="modal-image" alt="the happy couple" src={this.state.imageSrc} />
+                <img className="modal-image mt-3" alt="the happy couple" src={this.state.imageSrc} />
               </a>
             </div>
           </div>

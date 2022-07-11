@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import moonImage from '../assets/images/moon-image.jpeg';
+import moonImage from '../assets/images/moon-image.png';
 import engagementImage from '../assets/images/engagement.jpeg';
 import Nav from './Nav';
 
@@ -14,7 +14,7 @@ export default class Main extends Component {
               <img src={engagementImage} alt="gabriel proposing to andraya" className="splash-photo y-5"/>
             </div>
 
-            <div className="d-flex justify-content-center align-items-center my-5">
+            <div className="d-flex justify-content-center align-items-center mx-2 my-5">
               <img src={moonImage} height="240rem" alt="moon"/>
               <h1 className="mb-1">Andraya Sanchez & Gabriel Talavera</h1>
             </div>
