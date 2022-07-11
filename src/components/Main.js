@@ -6,7 +6,7 @@ import Nav from './Nav';
 export default class Main extends Component {
   render() {
     return (
-      <div>
+      <div className="star-background">
         <Nav />
         <main className="container">
           <div className="d-flex flex-column align-items-center justify-content-center">
@@ -25,6 +25,9 @@ export default class Main extends Component {
             </div>
           </div>
         </main>
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
       </div>
     );
   }
