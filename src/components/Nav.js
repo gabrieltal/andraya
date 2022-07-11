@@ -9,7 +9,7 @@ export default class Nav extends Component {
         <NavLink className="nav-link" to="/">Home</NavLink>
         <NavLink className="nav-link" to="/about">About</NavLink>
         <NavLink className="nav-link" to="/gallery">Gallery</NavLink>
-        <NavLink className="nav-link" to="/Registry">Registry</NavLink>
+        <NavLink className="nav-link" to="/registry">Registry</NavLink>
         <NavLink className="nav-link" to="/timeline">Timeline</NavLink>
       </nav>
     )
