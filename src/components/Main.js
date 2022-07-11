@@ -11,7 +11,7 @@ export default class Main extends Component {
         <main className="container">
           <div className="d-flex flex-column align-items-center justify-content-center">
             <div className="splash-container">
-              <img src={engagementImage}  className="splash-photo y-5"/>
+              <img src={engagementImage} alt="gabriel proposing to andraya" className="splash-photo y-5"/>
             </div>
 
             <div className="d-flex justify-content-center align-items-center my-5">

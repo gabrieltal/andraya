@@ -11,7 +11,7 @@ export default class Photo extends Component {
     }
 
     this.toggleModal = this.toggleModal.bind(this);
-    this.toggleClickOutsideModalContent = this.toggleClickOutsideModalContent.bind(this);
+    this.closeModalOnOutsideClick = this.closeModalOnOutsideClick.bind(this);
   }
 
   toggleModal() {
@@ -20,9 +20,9 @@ export default class Photo extends Component {
     })
   }
 
-  toggleClickOutsideModalContent(e) {
+  closeModalOnOutsideClick(e) {
     let classes = e.target.className.split(" ");
-    if (classes.includes("modal")) {
+    if (classes.includes("modal") || classes.includes("modal-content") || classes.includes("modal-body")) {
       this.toggleModal();
     }
   }
@@ -32,16 +32,15 @@ export default class Photo extends Component {
 
     return (
       <div className="gallery-item">
-        <img className="gallery-image" onClick={this.toggleModal} src={this.state.imageSrc} />
+        <img className="gallery-image" alt="the happy couple" onClick={this.toggleModal} src={this.state.imageSrc} />
 
-        <div className={'modal ' + modalClass} onClick={this.toggleClickOutsideModalContent}>
-          <div className="modal-content">
-            <div className="modal-header">
-              <button className="close">&times;<span className="visually-hidden">Close</span></button>
-            </div>
-            <div className="modal-body container">
+        <div className={'modal ' + modalClass} onClick={this.closeModalOnOutsideClick}>
+          <button className="close" onClick={this.toggleModal}>&times;<span className="visually-hidden">Close</span></button>
+
+          <div className="modal-content text-center">
+            <div className="modal-body">
               <a href={this.state.imageSrc} rel="noreferrer" target="_blank">
-                <img className="modal-image" src={this.state.imageSrc} />
+                <img className="modal-image" alt="the happy couple" src={this.state.imageSrc} />
               </a>
             </div>
           </div>

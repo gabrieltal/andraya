@@ -65,8 +65,8 @@ a { font-size: 1.15rem; line-height: 1.2rem; }
 /* App Specific */
 
 .splash-photo {
-  max-width:100%;
-  width:100%;
+  max-width: 100%;
+  width: 100%;
   max-height: 480px;
 }
 
@@ -106,7 +106,7 @@ a { font-size: 1.15rem; line-height: 1.2rem; }
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
 }
 
 .modal-header, .modal-content {
@@ -114,8 +114,12 @@ a { font-size: 1.15rem; line-height: 1.2rem; }
 }
 
 .modal-content {
-  margin: 10% auto; /* 15% from the top and centered */
+  margin: 0 auto; /* 15% from the top and centered */
   width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.modal-image {
+  height: 100vh;
 }
 
 .visually-hidden, .is-closed {
@@ -126,6 +130,18 @@ a { font-size: 1.15rem; line-height: 1.2rem; }
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.close {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: transparent;
+  border: 0;
+  margin: 1rem;
+  cursor: pointer;
+  color: white;
+  font-size: 2rem;
 }
 
 /* Media Queries */
