@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Photo extends Component {
   constructor(props) {
     super(props);
-    const BASEURL = 'https://raw.githubusercontent.com/gabrieltal/andraya/main/src/assets/images/';
+    const BASEURL = 'https://raw.githubusercontent.com/gabrieltal/andraya/main/src/assets/images/gallery/';
 
     this.state = {
       openModal: false,
