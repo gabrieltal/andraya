@@ -21,9 +21,6 @@ const PHOTOS = [
     filename: 'laying-on-bench.JPG',
   },
   {
-    filename: 'sitting-on-bench.JPG',
-  },
-  {
     filename: 'prom-in-front-of-arch.JPG',
   },
   {
@@ -46,6 +43,9 @@ const PHOTOS = [
   },
   {
     filename: 'posing-for-picture.JPG',
+  },
+  {
+    filename: 'sitting-on-bench.JPG',
   },
   {
     filename: 'staring-at-van-gogh.JPG',
