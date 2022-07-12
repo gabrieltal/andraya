@@ -3,6 +3,12 @@ const PHOTOS = [
     filename: 'chit-chat-in-garden.JPG',
   },
   {
+    filename: 'wes-anderson-pose.JPG',
+  },
+  {
+    filename: 'twirl-in-circle.JPG',
+  },
+  {
     filename: 'front-of-pink-tree.JPG',
   },
   {
@@ -15,22 +21,22 @@ const PHOTOS = [
     filename: 'laying-on-bench.JPG',
   },
   {
-    filename: 'posing-for-picture.JPG',
+    filename: 'sitting-on-bench.JPG',
+  },
+  {
+    filename: 'prom-in-front-of-arch.JPG',
   },
   {
     filename: 'staring-at-monet.JPG',
   },
   {
-    filename: 'staring-at-van-gogh.JPG',
-  },
-  {
     filename: 'staring-at-water.JPG',
   },
   {
-    filename: 'staring-at-statue.JPG',
+    filename: 'starting-at-statue.JPG',
   },
   {
-    filename: 'twirl-in-circle.JPG',
+    filename: 'drawing-under-arch.JPG',
   },
   {
     filename: 'twirl-on-balcony.JPG',
@@ -39,7 +45,10 @@ const PHOTOS = [
     filename: 'walking-around-getty.JPG',
   },
   {
-    filename: 'wes-anderson-pose.JPG',
+    filename: 'posing-for-picture.JPG',
+  },
+  {
+    filename: 'staring-at-van-gogh.JPG',
   },
 ];
 
